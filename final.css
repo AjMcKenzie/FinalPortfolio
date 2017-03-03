@@ -1,0 +1,44 @@
+.heders{
+  text-align: center;
+}
+.margrin{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.background{
+  background: rgb(117, 117, 117); /* Sonic Silver */
+
+}
+.back{ /* this is for the header on the main page */
+  color: rgb(224, 149, 4);
+  background-color: rgb(38, 38, 38);
+  height: 40px;
+}
+.p{
+  font-size: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(132, 132, 130); /* Old Silver */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(153, 101, 21); /* Golden Brown */
+}
