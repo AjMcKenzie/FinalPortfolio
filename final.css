@@ -1,44 +1,74 @@
-.heders{
-  text-align: center;
-}
-.margrin{
-  margin-top: 50px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.background{
-  background: rgb(117, 117, 117); /* Sonic Silver */
-
-}
-.back{ /* this is for the header on the main page */
-  color: rgb(224, 149, 4);
-  background-color: rgb(38, 38, 38);
-  height: 40px;
-}
-.p{
-  font-size: 100%;
+.heders
+{
+    text-align: center;
 }
 
-ul {
-    list-style-type: none;
+.margrin
+{
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.background
+{
+    background: rgb(117, 117, 117); /* Sonic Silver */
+    /* Found this image at http://keywordsuggest.org/gallery/854276.html */
+    background-image: url('images/swirls4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back
+{
+    /* This is for the header on the main page */
+    height: 40px;
+
+    color: rgb(224, 149, 4);
+    background-color: rgb(38, 38, 38);
+}
+
+.p
+{
+    font-size: 100%;
+
+    margin-right: 200px;
+    margin-left: 200px;
+
+    border-style: groove;
+    background-color: rgb(224, 224, 224);
+}
+
+ul
+{
+    overflow: hidden;
+
     margin: 0;
     padding: 0;
-    overflow: hidden;
+
+    list-style-type: none;
+
     background-color: rgb(132, 132, 130); /* Old Silver */
 }
 
-li {
+li
+{
     float: left;
 }
 
-li a {
+li a
+{
     display: block;
-    color: white;
-    text-align: center;
+
     padding: 14px 16px;
+
+    text-align: center;
     text-decoration: none;
+
+    color: white;
 }
 
-li a:hover {
+li a:hover
+{
     background-color: rgb(153, 101, 21); /* Golden Brown */
 }
