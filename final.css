@@ -38,6 +38,15 @@
     border-style: groove;
     background-color: rgb(224, 224, 224);
 }
+.ul1
+{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.bold
+{
+    font-weight: bold;
+}
 
 ul
 {
