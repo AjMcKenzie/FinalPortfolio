@@ -1,4 +1,4 @@
-.heders
+.headers
 {
     text-align: center;
 }
@@ -13,8 +13,7 @@
 .background
 {
     background: rgb(117, 117, 117); /* Sonic Silver */
-    /* Found this image at http://keywordsuggest.org/gallery/854276.html */
-    background-image: url('images/swirls4.png');
+    background-image: url('images/swirls4.png'); /* Found this image at http://keywordsuggest.org/gallery/854276.html */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,7 +24,29 @@
     height: 40px;
 
     color: rgb(224, 149, 4);
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(38, 38, 38); /* Dark Grey */
+}
+table,
+th,
+td
+{
+    text-align: center;
+
+    border: 1px solid black;
+    background-color: rgb(176, 196, 222); /* LightSteel Blue */
+}
+th
+{
+    width: 200px;
+}
+.highlight
+{
+    background-color: yellow;
+}
+
+.bold
+{
+    font-weight: bold;
 }
 
 .p
@@ -42,10 +63,6 @@
 {
     margin-right: 50px;
     margin-left: 50px;
-}
-.bold
-{
-    font-weight: bold;
 }
 
 ul
