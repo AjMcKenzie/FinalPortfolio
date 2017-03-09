@@ -13,9 +13,14 @@
 .background
 {
     background: rgb(117, 117, 117); /* Sonic Silver */
-    background-image: url('images/swirls4.png'); /* Found this image at http://keywordsuggest.org/gallery/854276.html */
+    background-image: url('images/swirls.png'); /* Found this image at http://keywordsuggest.org/gallery/854276.html */
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.pics
+{
+    margin-left: 400px;
 }
 
 .back
