@@ -1,4 +1,4 @@
-.headers
+ .headers
 {
     text-align: center;
 }
@@ -20,7 +20,7 @@
 
 .pics
 {
-    margin-left: 400px;
+    margin-left: 200px;
 }
 
 .back
@@ -31,6 +31,17 @@
     color: rgb(224, 149, 4);
     background-color: rgb(38, 38, 38); /* Dark Grey */
 }
+
+.active {
+background-color: rgb(184, 134, 11);
+}
+footer{
+  text-align: center;
+  color: white;
+  padding: 15px;
+  background-color: rgb(79, 79, 79);
+}
+
 table,
 th,
 td
