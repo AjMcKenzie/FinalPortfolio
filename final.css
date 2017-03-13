@@ -35,12 +35,34 @@
 .active {
 background-color: rgb(184, 134, 11);
 }
-footer{
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom:160px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: 150px;
+  height: 100px;
+  clear:both;
+  padding-top:50px;
+  color: white;
+  text-align: center;
+  background-color: rgb(79, 79, 79);
+}
+
+/*footer{
   text-align: center;
   color: white;
   padding: 15px;
   background-color: rgb(79, 79, 79);
-}
+  margin-top:  170px;
+}*/
 
 table,
 th,
