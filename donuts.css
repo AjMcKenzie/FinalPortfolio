@@ -1,0 +1,56 @@
+body{
+  padding-left: 200px;
+  padding-right: 300px;
+  padding-top: 20px;
+}
+
+h1{
+  float: left;
+  font-size: 50px;
+  font-family: serif;
+}
+img{
+  float: auto;
+  width: 30%;
+  height: 40%;
+}
+p{
+  font-size: 25px;
+  font-family: serif;
+}
+.warning{
+border: hidden;
+background: red;
+background-clip: content-box;
+color: white;
+font-family: serif;
+}
+.box{
+  border-style: ridge;
+  border-left: white;
+  border-right: white;
+  font-family: serif;
+}
+.highlight{
+  background-color: red;
+  color: white;
+  font-family: serif;
+}
+.bold{
+  font-weight: bold;
+}
+aside {
+	display: block;
+	float: left;
+	width: 250px;
+	background-color: #becce2;
+	margin-left: -75px;
+  height: 550px;
+
+}
+
+aside blockquote {
+	width: 70%;
+	margin: 20px auto 40px;
+	font-family: serif;
+}
