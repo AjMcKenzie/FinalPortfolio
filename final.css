@@ -66,13 +66,14 @@ background-color: rgb(184, 134, 11);
   background-color: rgb(79, 79, 79);
 }
 
-/*footer{
-  text-align: center;
-  color: white;
-  padding: 15px;
-  background-color: rgb(79, 79, 79);
-  margin-top:  170px;
-}*/
+.pics2
+{
+  margin-left: 300px;
+}
+img{
+  width: 700px;
+  height: 400px;
+}
 
 table,
 th,
@@ -95,6 +96,11 @@ th
 .bold
 {
     font-weight: bold;
+}
+
+.i
+{
+  font-style: italic;
 }
 
 .p
