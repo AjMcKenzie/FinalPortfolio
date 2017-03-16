@@ -44,6 +44,10 @@
     background-color: rgb(38, 38, 38); /* Dark Grey */
 }
 
+.size{
+  font-size: 16px;
+}
+
 .back3{
   background-color: white;
   width: 900px;
