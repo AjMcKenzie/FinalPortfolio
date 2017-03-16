@@ -44,6 +44,10 @@
     background-color: rgb(38, 38, 38); /* Dark Grey */
 }
 
+.back3{
+  background-color: white;
+  width: 900px;
+}
 .active
 {
     background-color: rgb(184, 134, 11);
